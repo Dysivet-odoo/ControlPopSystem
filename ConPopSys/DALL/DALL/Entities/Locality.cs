@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DALL.Entities
 {
-    internal class Locality
+    public class Locality
     {
         public int IdLocality { get; set; }
         public string Name { get; set; }

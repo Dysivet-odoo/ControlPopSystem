@@ -11,7 +11,7 @@ namespace DALL.Entities
         Male,
         Female
     }
-    internal class Human
+    public class Human
     {
         public int IdHuman { get; set; }
         public string Name { get; set; }

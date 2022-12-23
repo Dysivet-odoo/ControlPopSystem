@@ -7,7 +7,7 @@ using DALL.Entities;
 
 namespace DALL.Repositories.Interfaces
 {
-    internal interface IHumanRepository
+    public interface IHumanRepository
         :IRepository<Human>
     {
     }

@@ -7,7 +7,7 @@ using DALL.Entities;
 
 namespace DALL.Repositories.Interfaces
 {
-    internal interface IStatisticRepository 
+    public interface IStatisticRepository 
         : IRepository<Statistics>
     {
     }

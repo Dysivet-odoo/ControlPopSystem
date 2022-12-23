@@ -7,7 +7,7 @@ using DALL.Entities;
 
 namespace DALL.Repositories.Interfaces
 {
-    internal interface ILocalityRepository
+    public interface ILocalityRepository
         : IRepository<Locality>
     {
     }
