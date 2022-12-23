@@ -8,5 +8,8 @@ namespace DALL.Entities
 {
     internal class Locality
     {
+        public int IdLocality { get; set; }
+        public string Name { get; set; }
+        public string Region { get; set; }
     }
 }
