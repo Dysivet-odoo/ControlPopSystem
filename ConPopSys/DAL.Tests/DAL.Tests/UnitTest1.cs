@@ -1,8 +1,11 @@
 using Xunit;
+using System;
+
 
 namespace DAL.Tests
 {
-    public class UnitTest1
+    class TestLocalityRepository
+        : BaseRepository
     {
         [Fact]
         public void Test1()
